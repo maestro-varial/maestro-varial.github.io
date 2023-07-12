@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <!-- <base href="/"> -->
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Digitalize All est une entreprise spécialisée dans la transformation numérique complète de votre entreprise peu importe votre budget. Nous offrons une gamme complète de services comprenant la création de sites web, le développement de logiciels de gestion, la conception d'applications mobiles, la production de contenus, la gestion des pages Facebook, le marketing digital et le consulting.
+  Notre équipe d'experts passionnés et compétents est dédiée à vous fournir des solutions innovantes et personnalisées pour répondre à vos besoins spécifiques. Nous comprenons l'importance d'une présence en ligne solide et d'une stratégie digitale efficace pour réussir dans le monde actuel. C'est pourquoi nous mettons tout en œuvre pour vous aider à atteindre vos objectifs.
+  En tant que client de Digitalize All, vous bénéficiez de notre approche flexible et adaptée à votre budget. Nous comprenons que chaque entreprise a des contraintes financières différentes, c'est pourquoi nous vous proposons des options de paiement en tranches mensuelles pour faciliter votre investissement dans votre transformation numérique.
+  De plus, nous avons intégré l'intelligence artificielle à nos processus pour vous offrir une assistance avancée. Grâce à l'IA, nous pouvons analyser les données, automatiser certaines tâches et fournir des recommandations précieuses pour améliorer vos performances en ligne.
+  Chez Digitalize All, nous croyons en la puissance de la technologie pour faire progresser votre entreprise. Notre équipe s'engage à vous fournir des solutions digitales de qualité supérieure, à vous accompagner tout au long de votre parcours numérique et à vous aider à atteindre un succès durable dans un monde en constante évolution.
+  Contactez-nous dès aujourd'hui pour discuter de vos besoins et découvrez comment Digitalize All peut vous aider à digitaliser votre entreprise et à vous démarquer dans le monde en ligne.
+  ">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Digitalize All">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+
+  <title>Digitalize All</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAJCAS4xplPL-U7zQZhiVt13X6U0jyUteI",
+      authDomain: "digitalize-all.firebaseapp.com",
+      projectId: "digitalize-all",
+      storageBucket: "digitalize-all.appspot.com",
+      messagingSenderId: "471028348662",
+      appId: "1:471028348662:web:deaed7dcdd2ef371c99ed7",
+      measurementId: "G-B7NSS7FMSQ"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '3834501426';
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+
+<body>
+  <script>
+    window.addEventListener('load', function (ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+
 </html>

@@ -33,38 +33,3 @@
         }
     ]
 }
-{
-    "name": "Digitalize All",
-    "short_name": "Digitalize All",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Digitalize All est une entreprise spécialisée dans la transformation numérique complète de votre entreprise peu importe votre budget. Nous offrons une gamme complète de services comprenant la création de sites web, le développement de logiciels de gestion, la conception d'applications mobiles, la production de contenus, la gestion des pages Facebook, le marketing digital et le consulting. Notre équipe d'experts passionnés et compétents est dédiée à vous fournir des solutions innovantes et personnalisées pour répondre à vos besoins spécifiques. Nous comprenons l'importance d'une présence en ligne solide et d'une stratégie digitale efficace pour réussir dans le monde actuel. C'est pourquoi nous mettons tout en œuvre pour vous aider à atteindre vos objectifs. En tant que client de Digitalize All, vous bénéficiez de notre approche flexible et adaptée à votre budget. Nous comprenons que chaque entreprise a des contraintes financières différentes, c'est pourquoi nous vous proposons des options de paiement en tranches mensuelles pour faciliter votre investissement dans votre transformation numérique. De plus, nous avons intégré l'intelligence artificielle à nos processus pour vous offrir une assistance avancée. Grâce à l'IA, nous pouvons analyser les données, automatiser certaines tâches et fournir des recommandations précieuses pour améliorer vos performances en ligne. Chez Digitalize All, nous croyons en la puissance de la technologie pour faire progresser votre entreprise. Notre équipe s'engage à vous fournir des solutions digitales de qualité supérieure, à vous accompagner tout au long de votre parcours numérique et à vous aider à atteindre un succès durable dans un monde en constante évolution. Contactez-nous dès aujourd'hui pour discuter de vos besoins et découvrez comment Digitalize All peut vous aider à digitaliser votre entreprise et à vous démarquer dans le monde en ligne.",
-    "orientation": "portrait-primary",
-    "prefer_related_applications": false,
-    "icons": [
-        {
-            "src": "icons/Icon-192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-maskable-192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable"
-        },
-        {
-            "src": "icons/Icon-maskable-512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable"
-        }
-    ]
-}
